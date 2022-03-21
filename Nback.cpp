@@ -22,13 +22,12 @@ int pic()
 
 int main()
 {
-	//string figure[3] = {"¡Ú¡Ü¡á", "¡è¡é¡ê", "¢¼¢Ï¢Ù"};
 	string figure[3] = { "ABC", "XYZ", "IJK" };
 	vector <char> listed;
 	vector <string> entered;
-	int random;  // µµÇü ±×·ìÀ» ¼±ÅÃ
-	int idx; // ¼±ÅÃµÈ µµÇü ±×·ì¿¡¼­ ÇÏ³ª ¼±ÅÃ
-	int num; // ³»°¡ ÀÔ·ÂÇÑ µµÇü ÀÎµ¦½º
+	int random;  // ë„í˜• ê·¸ë£¹ì„ ì„ íƒ
+	int idx; // ì„ íƒëœ ë„í˜• ê·¸ë£¹ì—ì„œ í•˜ë‚˜ ì„ íƒ
+	int num; // ë‚´ê°€ ì…ë ¥í•œ ë„í˜• ì¸ë±ìŠ¤
 	char this_turn;
 	char typing;
 	random = rand() % 3;
